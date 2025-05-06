@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+body {
+    font-family: "Cal Sans", sans-serif;
+    background-color: rgb(155, 4, 4);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #000000;
+
+}
+
+label {
+    font-size: 30px;
+    color: #000000
+}
+
+input[type="number"] {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: 3rem;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.output {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.Fibonacci-sequence {
+    font-size: 30px;
+    font-weight: bold;
+    color: rebeccapurple;
+
+}
